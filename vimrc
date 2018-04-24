@@ -1,4 +1,4 @@
-" Vimrc file, http://phuzz.org
+" Vimrc file
 
 set nocompatible    " use vim defaults
 set bs=indent,eol,start " allow backspacing over everything in insert mode
@@ -18,7 +18,6 @@ set ignorecase      " ignore case when searching
 "set noignorecase   " don't ignore case
 set title           " show title in console title bar
 set ttyfast         " smoother changes
-"set ttyscroll=0        " turn off scrolling, didn't work well with PuTTY
 set modeline        " last lines in document sets vim mode
 set modelines=3     " number lines checked for modelines
 set shortmess=atI   " Abbreviate messages
@@ -32,7 +31,6 @@ set wildmenu        " display all choices
 "set autochdir       " change directory
 set sm              " show matching braces, somewhat annoying...
 syntax on           " syntax highlighing
-"set nowrap         " don't wrap lines
 
 set wildignore+=*.o,*.pyc
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
