@@ -34,3 +34,7 @@
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 	shallow = true
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+	shallow = true
