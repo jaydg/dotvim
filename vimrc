@@ -32,6 +32,13 @@ set wildmenu        " display all choices
 set sm              " show matching braces, somewhat annoying...
 syntax on           " syntax highlighing
 
+" Highlight current line number
+set cursorline
+hi clear CursorLine
+augroup CLClear
+    autocmd! ColorScheme * hi clear CursorLine
+augroup END
+
 set wildignore+=*.o,*.pyc,*.bak,*.class
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.tar.*
 
