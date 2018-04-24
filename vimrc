@@ -32,8 +32,8 @@ set wildmenu        " display all choices
 set sm              " show matching braces, somewhat annoying...
 syntax on           " syntax highlighing
 
-set wildignore+=*.o,*.pyc
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+set wildignore+=*.o,*.pyc,*.bak,*.class
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.tar.*
 
 " pathogen plugins
 runtime bundle/vim-pathogen/autoload/pathogen.vim
