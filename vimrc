@@ -29,7 +29,7 @@ set autoindent      " always set autoindenting on
 set smartindent     " smart indent
 set cindent         " cindent
 set wildmenu        " display all choices
-set autochdir       " change directory
+"set autochdir       " change directory
 set sm              " show matching braces, somewhat annoying...
 syntax on           " syntax highlighing
 "set nowrap         " don't wrap lines
