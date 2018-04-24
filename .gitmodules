@@ -29,7 +29,7 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
-[submodule "bundle/tabgar"]
-	path = bundle/tabgar
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 	shallow = true
