@@ -41,7 +41,11 @@ execute pathogen#infect()
 
 if has("gui_running")
   " See ~/.gvimrc
-  set guifont=IBM\ Plex\ Mono:h18 " use this font
+  if has("gui_macvim")
+    set guifont=IBM\ Plex\ Mono:h18
+  else
+    set guifont=Monospace\ 10
+  endif
   set lines=50              " height = 50 lines
   set columns=100           " width = 100 columns
   set background=light      " adapt colors for background
