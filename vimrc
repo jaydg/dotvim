@@ -38,6 +38,7 @@ set wildignore+=*.o,*.pyc
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
 " pathogen plugins
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
 if has("gui_running")
