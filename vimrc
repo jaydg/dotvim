@@ -73,6 +73,9 @@ autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4
 " Automatically remove all trailing whitespace before writing
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Lower the default updatetime of 4 seconds
+set updatetime=100
+
 " Run checktime in buffers, but avoiding the "Command Line" (q:) window
 au CursorHold * if getcmdwintype() == '' | checktime  | endif
 
