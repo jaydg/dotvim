@@ -42,6 +42,10 @@ augroup END
 set wildignore+=*.o,*.pyc,*.bak,*.class
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.tar.*
 
+" keep swapfiles out of working directories
+" https://stackoverflow.com/questions/1636297
+:set directory=$HOME/.vim/swapfiles//
+
 " pathogen plugins
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
