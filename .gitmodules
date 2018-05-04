@@ -42,3 +42,7 @@
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
 	shallow = true
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+	shallow = true
