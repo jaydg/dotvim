@@ -121,7 +121,7 @@ let g:lightline.component_type = {
 " --- NERDTree ----------------------------------
 " How can I map a specific key or shortcut to open NERDTree?
 map <C-n> :NERDTreeToggle<CR>
-let NERDTreeIgnore=['\.pyc$', '\.o$', '\~$']
+let NERDTreeRespectWildIgnore = 1
 
 " --- indent-guides -----------------------------
 let g:indent_guides_enable_on_vim_startup = 1
