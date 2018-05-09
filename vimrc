@@ -46,6 +46,11 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.tar.*
 " https://stackoverflow.com/questions/1636297
 :set directory=$HOME/.vim/swapfiles//
 
+" change buffers quickly: F9 -> previous, F10 -> next
+" https://stackoverflow.com/questions/5559029
+map <F9> :bprevious<CR>
+map <F10> :bnext<CR>
+
 " pathogen plugins
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
