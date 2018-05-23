@@ -55,6 +55,11 @@ map <F10> :bnext<CR>
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
+" Enable full mouse support whenever the clipboard is supported
+if has("clipboard")
+  set mouse=a
+endif
+
 if has("gui_running")
   " See ~/.gvimrc
   if has("gui_macvim")
