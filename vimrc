@@ -72,6 +72,8 @@ if has("gui_running")
   set background=light      " adapt colors for background
   set selectmode=mouse,key,cmd
   set keymodel=
+  set guioptions-=m  "remove menu bar
+  set guioptions-=T  "remove toolbar
 else
   colorscheme one    " use this color scheme
   " set background=dark        " adapt colors for background
