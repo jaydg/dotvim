@@ -50,3 +50,7 @@
 	path = bundle/vim-pug
 	url = https://github.com/digitaltoad/vim-pug.git
 	shallow = true
+[submodule "bundle/vim-crystal"]
+	path = bundle/vim-crystal
+	url = https://github.com/rhysd/vim-crystal.git
+	shallow = true

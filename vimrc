@@ -83,9 +83,8 @@ filetype indent on
 filetype plugin on    " Enable filetype-specific plugins
 
 " Use a small tab stop and shift width for the following file types.
-autocmd FileType ruby,lua,vim,coffee setlocal expandtab tabstop=2 shiftwidth=2
-autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4
-autocmd FileType c setlocal expandtab tabstop=4 shiftwidth=4
+autocmd FileType coffee,crystal,lua,ruby,vim setlocal expandtab tabstop=2 shiftwidth=2
+autocmd FileType c,python setlocal expandtab tabstop=4 shiftwidth=4
 
 " Automatically remove all trailing whitespace before writing
 autocmd BufWritePre * :%s/\s\+$//e
