@@ -130,6 +130,9 @@ let g:lightline.component_type = {
 " How can I map a specific key or shortcut to open NERDTree?
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeRespectWildIgnore = 1
+" How can I close vim if the only window left open is a NERDTree?
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 
 " --- indent-guides -----------------------------
 let g:indent_guides_enable_on_vim_startup = 1
