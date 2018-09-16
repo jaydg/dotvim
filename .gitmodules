@@ -26,10 +26,6 @@
 	path = bundle/lightline-ale
 	url = https://github.com/maximbaz/lightline-ale
 	shallow = true
-[submodule "bundle/vim-one"]
-	path = bundle/vim-one
-	url = https://github.com/rakr/vim-one.git
-	shallow = true
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git

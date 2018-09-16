@@ -75,8 +75,7 @@ if has("gui_running")
   set guioptions-=m  "remove menu bar
   set guioptions-=T  "remove toolbar
 else
-  colorscheme one    " use this color scheme
-  " set background=dark        " adapt colors for background
+  colorscheme industry
 endif
 
 filetype indent on
