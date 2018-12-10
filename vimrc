@@ -32,6 +32,25 @@ set wildmenu        " display all choices
 set sm              " show matching braces, somewhat annoying...
 syntax on           " syntax highlighing
 
+" Start plugin confiuration
+call plug#begin('~/.vim/plugged')
+
+Plug 'https://github.com/w0rp/ale.git'
+Plug 'https://github.com/kien/ctrlp.vim.git'
+Plug 'https://github.com/scrooloose/nerdtree.git'
+Plug 'https://github.com/tpope/vim-fugitive.git'
+Plug 'https://github.com/airblade/vim-gitgutter.git'
+Plug 'https://github.com/itchyny/lightline.vim.git'
+Plug 'https://github.com/maximbaz/lightline-ale'
+Plug 'https://github.com/majutsushi/tagbar.git'
+Plug 'https://github.com/ervandew/supertab.git'
+Plug 'https://github.com/kchmck/vim-coffee-script.git'
+Plug 'https://github.com/digitaltoad/vim-pug.git'
+Plug 'https://github.com/rhysd/vim-crystal.git'
+
+" Initialize plugin system
+call plug#end()
+
 " Highlight current line number
 set cursorline
 hi clear CursorLine
@@ -50,10 +69,6 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.tar.*
 " https://stackoverflow.com/questions/5559029
 map <F9> :bprevious<CR>
 map <F10> :bnext<CR>
-
-" pathogen plugins
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
 
 " Enable full mouse support whenever the clipboard is supported
 if has("clipboard")

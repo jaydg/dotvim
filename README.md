@@ -2,4 +2,8 @@
 
 Install with
 
-    git clone http://github.com/jaydg/dotvim.git ~/.vim --recurse-submodules
+    git clone http://github.com/jaydg/dotvim.git ~/.vim
+
+Install the plugins with
+
+	:PlugInstall
