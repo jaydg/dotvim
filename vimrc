@@ -44,9 +44,10 @@ Plug 'https://github.com/itchyny/lightline.vim.git'
 Plug 'https://github.com/maximbaz/lightline-ale'
 Plug 'https://github.com/majutsushi/tagbar.git'
 Plug 'https://github.com/ervandew/supertab.git'
-Plug 'https://github.com/kchmck/vim-coffee-script.git'
-Plug 'https://github.com/digitaltoad/vim-pug.git'
-Plug 'https://github.com/rhysd/vim-crystal.git'
+" File type support
+Plug 'https://github.com/kchmck/vim-coffee-script.git', { 'for': 'coffee' }
+Plug 'https://github.com/digitaltoad/vim-pug.git', { 'for': 'pug' }
+Plug 'https://github.com/rhysd/vim-crystal.git', { 'for': 'crystal' }
 
 " Initialize plugin system
 call plug#end()
