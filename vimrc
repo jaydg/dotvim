@@ -38,12 +38,15 @@ call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/w0rp/ale.git'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim'
 Plug 'https://github.com/scrooloose/nerdtree.git'
-Plug 'https://github.com/tpope/vim-fugitive.git'
-Plug 'https://github.com/airblade/vim-gitgutter.git'
 Plug 'https://github.com/itchyny/lightline.vim.git'
 Plug 'https://github.com/maximbaz/lightline-ale'
 Plug 'https://github.com/majutsushi/tagbar.git'
 Plug 'https://github.com/ervandew/supertab.git'
+" Git integration
+Plug 'https://github.com/tpope/vim-fugitive.git'
+Plug 'https://github.com/airblade/vim-gitgutter.git'
+Plug 'https://github.com/Xuyuanp/nerdtree-git-plugin'
+Plug 'https://github.com/junegunn/gv.vim'
 " File type support
 Plug 'https://github.com/kchmck/vim-coffee-script.git', { 'for': 'coffee' }
 Plug 'https://github.com/digitaltoad/vim-pug.git', { 'for': 'pug' }
