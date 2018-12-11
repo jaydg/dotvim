@@ -49,6 +49,7 @@ Plug 'https://github.com/Xuyuanp/nerdtree-git-plugin'
 Plug 'https://github.com/junegunn/gv.vim'
 " File type support
 Plug 'https://github.com/kchmck/vim-coffee-script.git', { 'for': 'coffee' }
+Plug 'https://github.com/idanarye/vim-dutyl', { 'for': 'd' }
 Plug 'https://github.com/digitaltoad/vim-pug.git', { 'for': 'pug' }
 Plug 'https://github.com/rhysd/vim-crystal.git', { 'for': 'crystal' }
 Plug 'https://github.com/davidhalter/jedi-vim', { 'for': 'python' }
