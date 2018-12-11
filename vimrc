@@ -48,6 +48,7 @@ Plug 'https://github.com/ervandew/supertab.git'
 Plug 'https://github.com/kchmck/vim-coffee-script.git', { 'for': 'coffee' }
 Plug 'https://github.com/digitaltoad/vim-pug.git', { 'for': 'pug' }
 Plug 'https://github.com/rhysd/vim-crystal.git', { 'for': 'crystal' }
+Plug 'https://github.com/davidhalter/jedi-vim', { 'for': 'python' }
 
 " Initialize plugin system
 call plug#end()
