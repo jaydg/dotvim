@@ -126,7 +126,7 @@ au CursorHold * if getcmdwintype() == '' | checktime  | endif
 
 " --- Lightline _______________________----------
 let g:lightline = {
-      \ 'colorscheme': 'one',
+      \ 'colorscheme': 'powerline',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ],
