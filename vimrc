@@ -36,7 +36,7 @@ syntax on           " syntax highlighing
 call plug#begin('~/.vim/plugged')
 
 Plug 'https://github.com/w0rp/ale.git'
-Plug 'https://github.com/kien/ctrlp.vim.git'
+Plug 'https://github.com/ctrlpvim/ctrlp.vim'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/airblade/vim-gitgutter.git'
