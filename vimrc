@@ -52,6 +52,7 @@ Plug 'https://github.com/junegunn/gv.vim'
 Plug 'https://github.com/kchmck/vim-coffee-script.git', { 'for': 'coffee' }
 Plug 'https://github.com/idanarye/vim-dutyl', { 'for': 'd' }
 Plug 'https://github.com/elzr/vim-json', { 'for': 'json' }
+Plug 'https://github.com/gabrielelana/vim-markdown', { 'for': 'markdown' }
 Plug 'https://github.com/cespare/vim-toml', { 'for': 'toml' }
 Plug 'https://github.com/digitaltoad/vim-pug.git', { 'for': 'pug' }
 Plug 'https://github.com/rhysd/vim-crystal.git', { 'for': 'crystal' }
