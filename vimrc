@@ -109,6 +109,11 @@ filetype plugin on    " Enable filetype-specific plugins
 autocmd FileType coffee,crystal,lua,ruby,vim setlocal expandtab tabstop=2 shiftwidth=2
 autocmd FileType c,d,python setlocal expandtab tabstop=4 shiftwidth=4
 
+" Enable true color mode if the terminal supports it
+if (has("termguicolors"))
+  set termguicolors
+endif
+
 " Automatically remove all trailing whitespace before writing
 autocmd BufWritePre * :%s/\s\+$//e
 
