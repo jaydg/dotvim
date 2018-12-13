@@ -93,11 +93,12 @@ if has("gui_running")
   endif
   set lines=50              " height = 50 lines
   set columns=100           " width = 100 columns
-  set background=light      " adapt colors for background
   set selectmode=mouse,key,cmd
+  set background=light      " adapt colors for background
   set keymodel=
   set guioptions-=m  "remove menu bar
   set guioptions-=T  "remove toolbar
+  colorscheme slate
 else
   colorscheme industry
 endif
