@@ -42,6 +42,7 @@ Plug 'https://github.com/itchyny/lightline.vim.git'
 Plug 'https://github.com/maximbaz/lightline-ale'
 Plug 'https://github.com/majutsushi/tagbar.git'
 Plug 'https://github.com/ervandew/supertab.git'
+Plug 'https://github.com/jez/vim-superman'
 " Git integration
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/airblade/vim-gitgutter.git'
@@ -169,3 +170,6 @@ nmap <F8> :TagbarToggle<CR>
 " --- ale -----------------------------
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+" --- superman ------------------------
+noremap K :SuperMan <cword><CR>
