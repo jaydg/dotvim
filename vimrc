@@ -37,6 +37,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'https://github.com/w0rp/ale.git'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim'
+Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/itchyny/lightline.vim.git'
 Plug 'https://github.com/maximbaz/lightline-ale'
@@ -57,7 +58,7 @@ Plug 'https://github.com/gabrielelana/vim-markdown', { 'for': 'markdown' }
 Plug 'https://github.com/cespare/vim-toml', { 'for': 'toml' }
 Plug 'https://github.com/digitaltoad/vim-pug.git', { 'for': 'pug' }
 Plug 'https://github.com/rhysd/vim-crystal.git', { 'for': 'crystal' }
-Plug 'https://github.com/davidhalter/jedi-vim', { 'for': 'python' }
+Plug 'https://github.com/python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
 " Initialize plugin system
 call plug#end()
