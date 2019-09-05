@@ -41,6 +41,7 @@ Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/itchyny/lightline.vim.git'
 Plug 'https://github.com/maximbaz/lightline-ale'
 Plug 'https://github.com/majutsushi/tagbar.git'
+Plug 'https://github.com/vim-scripts/TaskList.vim.git'
 Plug 'https://github.com/ervandew/supertab.git'
 Plug 'https://github.com/jez/vim-superman'
 " Git integration
@@ -79,6 +80,9 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.tar.*
 " https://stackoverflow.com/questions/5559029
 map <F9> :bprevious<CR>
 map <F10> :bnext<CR>
+
+" Enable task list
+map <C-t> :TaskList<CR>
 
 " Enable full mouse support whenever the clipboard is supported
 if has("clipboard")
