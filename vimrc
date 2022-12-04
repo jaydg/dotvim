@@ -51,12 +51,10 @@ Plug 'https://github.com/airblade/vim-gitgutter.git'
 Plug 'https://github.com/Xuyuanp/nerdtree-git-plugin'
 Plug 'https://github.com/junegunn/gv.vim'
 " File type support
-Plug 'https://github.com/kchmck/vim-coffee-script.git', { 'for': 'coffee' }
 Plug 'https://github.com/idanarye/vim-dutyl', { 'for': 'd' }
 Plug 'https://github.com/elzr/vim-json', { 'for': 'json' }
 Plug 'https://github.com/gabrielelana/vim-markdown', { 'for': 'markdown' }
 Plug 'https://github.com/cespare/vim-toml', { 'for': 'toml' }
-Plug 'https://github.com/digitaltoad/vim-pug.git', { 'for': 'pug' }
 Plug 'https://github.com/rhysd/vim-crystal.git', { 'for': 'crystal' }
 Plug 'https://github.com/python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
@@ -113,7 +111,7 @@ filetype indent on
 filetype plugin on    " Enable filetype-specific plugins
 
 " Use a small tab stop and shift width for the following file types.
-autocmd FileType coffee,crystal,lua,ruby,vim setlocal expandtab tabstop=2 shiftwidth=2
+autocmd FileType crystal,lua,ruby,vim setlocal expandtab tabstop=2 shiftwidth=2
 autocmd FileType c,d,python setlocal expandtab tabstop=4 shiftwidth=4
 
 " Enable true color mode if the terminal supports it
