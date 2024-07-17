@@ -41,6 +41,7 @@ Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/itchyny/lightline.vim.git'
 Plug 'https://github.com/maximbaz/lightline-ale'
+Plug 'https://github.com/tpope/vim-sleuth.git'
 Plug 'https://github.com/majutsushi/tagbar.git'
 Plug 'https://github.com/vim-scripts/TaskList.vim.git'
 Plug 'https://github.com/ervandew/supertab.git'
@@ -105,10 +106,6 @@ endif
 
 filetype indent on
 filetype plugin on    " Enable filetype-specific plugins
-
-" Use a small tab stop and shift width for the following file types.
-autocmd FileType crystal,lua,ruby,vim setlocal expandtab tabstop=2 shiftwidth=2
-autocmd FileType c,d,python setlocal expandtab tabstop=4 shiftwidth=4
 
 " Enable true color mode if the terminal supports it
 if (has("termguicolors"))
