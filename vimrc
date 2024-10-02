@@ -58,6 +58,7 @@ Plug 'https://github.com/gabrielelana/vim-markdown', { 'for': 'markdown' }
 Plug 'https://github.com/cespare/vim-toml', { 'branch': 'main', 'for': 'toml' }
 Plug 'https://github.com/rhysd/vim-crystal.git', { 'for': 'crystal' }
 Plug 'https://github.com/python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'https://github.com/jvirtanen/vim-hcl.git', { 'for': 'terraform' }
 
 " Initialize plugin system
 call plug#end()
