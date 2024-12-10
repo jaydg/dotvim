@@ -12,14 +12,16 @@ Install the plugins with
 
 | Key    | Function                |
 | ------ | ----------------------- |
+| F7     | task list               |
 | F8     | toggle ctags tag bar    |
 | F9     | previous buffer         |
 | F10    | next buffer             |
+| CTRL-f | find in NERDTree        |
 | CTRL-j | ALE: jump to next error |
 | CTRL-k | jump to previous error  |
-| CTRL-n | open NERDTree           |
+| CTRL-n | focus NERDTree          |
+| CTRL-t | toggle NERDTree         |
 | CTRL-p | open ctrlp              |
-| CTRL-t | task list               |
 
 ## Miscellaneous
 
