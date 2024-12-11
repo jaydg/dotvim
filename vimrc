@@ -45,6 +45,7 @@ Plug 'https://github.com/tpope/vim-sleuth.git'
 Plug 'https://github.com/majutsushi/tagbar.git'
 Plug 'https://github.com/vim-scripts/TaskList.vim.git'
 Plug 'https://github.com/ervandew/supertab.git'
+Plug 'https://github.com/godlygeek/tabular.git'
 Plug 'https://github.com/jez/vim-superman'
 " Git integration
 Plug 'https://github.com/tpope/vim-fugitive.git'
