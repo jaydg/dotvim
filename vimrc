@@ -43,6 +43,7 @@ Plug 'https://github.com/itchyny/lightline.vim.git'
 Plug 'https://github.com/maximbaz/lightline-ale'
 Plug 'https://github.com/tpope/vim-sleuth.git'
 Plug 'https://github.com/majutsushi/tagbar.git'
+Plug 'https://github.com/tpope/vim-obsession.git'
 Plug 'https://github.com/vim-scripts/TaskList.vim.git'
 Plug 'https://github.com/ervandew/supertab.git'
 Plug 'https://github.com/godlygeek/tabular.git'
@@ -127,7 +128,8 @@ au CursorHold * if getcmdwintype() == '' | checktime  | endif
 let g:lightline = {
       \ 'colorscheme': 'powerline',
       \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
+      \   'left': [ [ 'obsession' ],
+      \             [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ],
       \   'right': [ [ 'lineinfo' ],
       \              [ 'percent' ],
@@ -135,6 +137,7 @@ let g:lightline = {
       \              [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_ok' ] ]
       \ },
       \ 'component_function': {
+      \   'obsession': 'ObsessionStatus',
       \   'gitbranch': 'FugitiveHead'
       \ },
       \ }
