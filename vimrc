@@ -8,6 +8,7 @@ set tabstop=4       " numbers of spaces of tab character
 set shiftwidth=4    " numbers of spaces to (auto)indent
 set scrolloff=3     " keep 3 lines when scrolling
 set showcmd         " display incomplete commands
+set noshowmode      " don't show mode change, lighline does that
 set hlsearch        " highlight searches
 set incsearch       " do incremental searching
 set visualbell t_vb=    " turn off error beep/flash
