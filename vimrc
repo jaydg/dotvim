@@ -55,6 +55,7 @@ Plug 'https://github.com/airblade/vim-gitgutter.git'
 Plug 'https://github.com/Xuyuanp/nerdtree-git-plugin'
 Plug 'https://github.com/junegunn/gv.vim'
 " File type support
+Plug 'pearofducks/ansible-vim'
 Plug 'https://github.com/idanarye/vim-dutyl', { 'for': 'd' }
 Plug 'https://github.com/elzr/vim-json', { 'for': 'json' }
 Plug 'https://github.com/preservim/vim-markdown', { 'for': 'markdown' }
