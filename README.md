@@ -2,7 +2,7 @@
 
 Install with
 
-    git clone http://github.com/jaydg/dotvim.git ~/.vim
+    git clone https://github.com/jaydg/dotvim.git ~/.vim
 
 Install the plugins with
 
