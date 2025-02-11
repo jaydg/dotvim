@@ -89,10 +89,8 @@ map <F10> :bnext<CR>
 " Enable task list
 map <F7> :TaskList<CR>
 
-" Enable full mouse support whenever the clipboard is supported
-if has("clipboard")
-  set mouse=a
-endif
+" Enable full mouse
+set mouse=a
 
 if has("gui_running")
   " See ~/.gvimrc
