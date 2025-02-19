@@ -33,6 +33,10 @@ set wildmenu        " display all choices
 set sm              " show matching braces, somewhat annoying...
 syntax on           " syntax highlighing
 
+" Redefine leader key to space
+let mapleader=" "
+"nnoremap <SPACE> <Nop>
+
 " Start plugin confiuration
 call plug#begin('~/.vim/plugged')
 
