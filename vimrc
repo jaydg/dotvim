@@ -93,6 +93,10 @@ map <F10> :bnext<CR>
 " Enable task list
 map <F7> :TaskList<CR>
 
+" Enable system clipboard
+" https://vim.fandom.com/wiki/Accessing_the_system_clipboard
+set clipboard=unnamedplus
+
 " Enable full mouse
 set mouse=a
 
