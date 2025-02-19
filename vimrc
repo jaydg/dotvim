@@ -42,6 +42,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'https://github.com/w0rp/ale.git'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim'
+Plug 'https://github.com/dyng/ctrlsf.vim.git'
 Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/itchyny/lightline.vim.git'
@@ -183,9 +184,8 @@ function! TagbarStatusFunc(current, sort, fname, ...) abort
 endfunction
 
 " --- NERDTree ----------------------------------
-nnoremap <C-n> :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTreeFind<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
 
 let NERDTreeRespectWildIgnore = 1
 " Start NERDTree. If a file is specified, move the cursor to its window.
@@ -211,6 +211,16 @@ let g:indent_guides_enable_on_vim_startup = 1
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files']
+
+" --- ctrlsf.vim --------------------------------
+nmap     <C-F>f <Plug>CtrlSFPrompt
+vmap     <C-F>f <Plug>CtrlSFVwordPath
+vmap     <C-F>F <Plug>CtrlSFVwordExec
+nmap     <C-F>n <Plug>CtrlSFCwordPath
+nmap     <C-F>p <Plug>CtrlSFPwordPath
+nnoremap <C-F>o :CtrlSFOpen<CR>
+nnoremap <C-F>t :CtrlSFToggle<CR>
+inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
 
 " --- tagbar --------------------------
 nmap <F8> :TagbarToggle<CR>
