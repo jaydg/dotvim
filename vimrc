@@ -97,8 +97,10 @@ map <F7> :TaskList<CR>
 " https://vim.fandom.com/wiki/Accessing_the_system_clipboard
 set clipboard=unnamedplus
 
-" Enable full mouse
-set mouse=a
+" Enable full mouse support whenever the clipboard is supported
+if has("clipboard")
+  set mouse=a
+endif
 
 if has("gui_running")
   " See ~/.gvimrc
