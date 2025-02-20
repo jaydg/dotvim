@@ -46,6 +46,7 @@ Plug 'https://github.com/dyng/ctrlsf.vim.git'
 Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/itchyny/lightline.vim.git'
+Plug 'https://github.com/luochen1990/rainbow.git'
 Plug 'https://github.com/maximbaz/lightline-ale'
 Plug 'https://github.com/tpope/vim-sleuth.git'
 Plug 'https://github.com/majutsushi/tagbar.git'
@@ -93,6 +94,9 @@ map <F10> :bnext<CR>
 
 " Enable task list
 map <F7> :TaskList<CR>
+
+" Enable Rainbow Parentheses Improved
+let g:rainbow_active = 1
 
 " Enable system clipboard
 " https://vim.fandom.com/wiki/Accessing_the_system_clipboard
