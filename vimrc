@@ -89,8 +89,8 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.tar.*
 
 " change buffers quickly: F9 -> previous, F10 -> next
 " https://stackoverflow.com/questions/5559029
-map <F9> :bprevious<CR>
-map <F10> :bnext<CR>
+nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
+nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
 
 " Enable task list
 map <F7> :TaskList<CR>
