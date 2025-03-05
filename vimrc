@@ -87,10 +87,13 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.tar.*
 " https://stackoverflow.com/questions/1636297
 :set directory=$HOME/.vim/swapfiles//
 
-" change buffers quickly: F9 -> previous, F10 -> next
+" Change buffers quickly
 " https://stackoverflow.com/questions/5559029
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
+
+" Disable key to switch to Ex mode
+:nnoremap Q <Nop>
 
 " Enable task list
 map <F7> :TaskList<CR>
