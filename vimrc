@@ -16,7 +16,6 @@ set novisualbell    " turn off visual bell
 set nobackup        " do not keep a backup file
 set number          " show line numbers
 set ignorecase      " ignore case when searching
-"set noignorecase   " don't ignore case
 set title           " show title in console title bar
 set ttyfast         " smoother changes
 set modeline        " last lines in document sets vim mode
@@ -29,8 +28,6 @@ set autoindent      " always set autoindenting on
 set smartindent     " smart indent
 set cindent         " cindent
 set wildmenu        " display all choices
-"set autochdir       " change directory
-set sm              " show matching braces, somewhat annoying...
 syntax on           " syntax highlighing
 
 " Redefine leader key to space
