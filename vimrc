@@ -40,7 +40,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/w0rp/ale.git'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim'
 Plug 'https://github.com/dyng/ctrlsf.vim.git'
-Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/itchyny/lightline.vim.git'
 Plug 'https://github.com/luochen1990/rainbow.git'
