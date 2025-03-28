@@ -14,6 +14,7 @@ Install the plugins with
 | ------ | --------------------------------- |
 | F7     | task list                         |
 | F8     | toggle ctags tag bar              |
+| F12    | toggle dark/light background      |
 | TAB    | next buffer                       |
 | S-TAB  | previous buffer                   |
 | CTRL-f | CtrlSF (find in files) prefix     |

@@ -112,14 +112,23 @@ if has("gui_running")
   set lines=50              " height = 50 lines
   set columns=100           " width = 100 columns
   set selectmode=mouse,key,cmd
-  set background=light      " adapt colors for background
   set keymodel=
   set guioptions-=m  "remove menu bar
   set guioptions-=T  "remove toolbar
-  colorscheme slate
-else
-  colorscheme industry
 endif
+
+" This colorscheme has good dark and light background colors
+colorscheme wildcharm
+" ..but defaults to light background
+set background=dark
+" Alternative colorschemes are: lunaperche, quiet and retrobox
+
+" Found here: https://www.reddit.com/r/vim/comments/lc8kbw/set_background_to_light_or_dark/
+function ToggleBackgroundOfEditor()
+    let &background = &background == "dark" ? "light" : "dark"
+endfunction
+
+nnoremap <silent> <F12> :call ToggleBackgroundOfEditor()<cr>
 
 filetype indent on
 filetype plugin on    " Enable filetype-specific plugins
