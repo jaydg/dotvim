@@ -51,6 +51,7 @@ Plug 'https://github.com/vim-scripts/TaskList.vim.git'
 Plug 'https://github.com/ervandew/supertab.git'
 Plug 'https://github.com/godlygeek/tabular.git'
 Plug 'https://github.com/jez/vim-superman'
+Plug 'https://github.com/preservim/vimux'
 " Git integration
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/airblade/vim-gitgutter.git'
