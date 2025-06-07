@@ -61,6 +61,7 @@ Plug 'https://github.com/junegunn/gv.vim'
 Plug 'pearofducks/ansible-vim'
 Plug 'https://github.com/rhysd/vim-crystal.git', { 'for': 'crystal' }
 Plug 'https://github.com/idanarye/vim-dutyl', { 'for': 'd' }
+Plug 'fatih/vim-go'
 Plug 'https://github.com/elzr/vim-json', { 'for': 'json' }
 Plug 'https://github.com/preservim/vim-markdown', { 'for': 'markdown' }
 Plug 'https://github.com/python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }

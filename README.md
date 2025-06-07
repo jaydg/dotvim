@@ -6,7 +6,10 @@ Install with
 
 Install the plugins with
 
-	:PlugInstall
+    :PlugInstall
+
+For the full Go support, run `:GoUpdateBinaries` afterwards.
+As this installs _a lot_ of things, it is not done automatically.
 
 ## Key Bindings
 
