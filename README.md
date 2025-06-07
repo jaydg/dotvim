@@ -20,6 +20,7 @@ As this installs _a lot_ of things, it is not done automatically.
 | F12    | toggle dark/light background      |
 | TAB    | next buffer                       |
 | S-TAB  | previous buffer                   |
+| CTRL-b | CtrlP buffer list                 |
 | CTRL-f | CtrlSF (find in files) prefix     |
 |      f | CtrlSF prompt (with selection)    |
 |      F | CtrlSF search (with selection)    |

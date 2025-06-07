@@ -227,6 +227,7 @@ let g:indent_guides_enable_on_vim_startup = 1
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files']
+nmap <C-b> :CtrlPBuffer<CR>
 
 " --- ctrlsf.vim --------------------------------
 nmap     <C-F>f <Plug>CtrlSFPrompt
