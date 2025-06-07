@@ -59,13 +59,13 @@ Plug 'https://github.com/Xuyuanp/nerdtree-git-plugin'
 Plug 'https://github.com/junegunn/gv.vim'
 " File type support
 Plug 'pearofducks/ansible-vim'
+Plug 'https://github.com/rhysd/vim-crystal.git', { 'for': 'crystal' }
 Plug 'https://github.com/idanarye/vim-dutyl', { 'for': 'd' }
 Plug 'https://github.com/elzr/vim-json', { 'for': 'json' }
 Plug 'https://github.com/preservim/vim-markdown', { 'for': 'markdown' }
-Plug 'https://github.com/cespare/vim-toml', { 'branch': 'main', 'for': 'toml' }
-Plug 'https://github.com/rhysd/vim-crystal.git', { 'for': 'crystal' }
 Plug 'https://github.com/python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 Plug 'https://github.com/jvirtanen/vim-hcl.git', { 'for': 'terraform' }
+Plug 'https://github.com/cespare/vim-toml', { 'branch': 'main', 'for': 'toml' }
 
 " Initialize plugin system
 call plug#end()
