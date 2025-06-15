@@ -110,7 +110,6 @@ endif
 
 if has("gui_running")
   " See ~/.gvimrc
-  set guifont=Monospace\ 10
   set lines=50              " height = 50 lines
   set columns=100           " width = 100 columns
   set selectmode=mouse,key,cmd
